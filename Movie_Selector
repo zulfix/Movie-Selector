@@ -1,0 +1,80 @@
+/******************************************
+Date: 12/13/2022
+
+Movie Selector
+Purpose: Selects movie for user based on interest of genre.
+Algorithm: Select number based on genre
+Click enter to see movie that is selected
+Click 7 to exit the program
+*****************************************/
+#include <iostream>
+using namespace std;
+int main()
+{
+int Selection;
+  int Genre;
+  int Select;
+  string Action;
+  string Comedy;
+  string Fantasy;
+  string Horror;
+  string Romance;
+  string Thriller;
+  //declaring of genres
+  
+  cout << "MOVIE SELECTOR\n\n\n";
+  //program title
+  
+ cout << "Hello!\nWhat genre would you be interested in watching today? Select OPTIONS 1-6 for genres. Select 7 to EXIT or RESTART\n\n";
+  //introduction/greeting/intructions
+  
+  cout << "1 = Action" << endl;
+  cout << "2 = Comedy" << endl;
+  cout << "3 = Fantasy" <<endl;
+  cout << "4 = Horror" <<endl;
+  cout << "5 = Romance" <<endl;
+  cout << "6 = Thriller" <<endl;
+  cout << "7 = Exit" <<endl;
+  cout << endl;
+
+  cout << "Genre:\n";
+    cin  >> Selection;
+  //genre selection
+
+ switch (Selection)
+     {
+      case 1: 
+        cout << "Movie Title: Invasion\n\nMovie Summary: Aliens have invaded Planet Earth with insane technological advances declaring war. Not against humanity. Something stirs in the Arctic.";
+        break;
+       //action genre
+       
+      case 2:
+        cout << "Movie Title: Faiza\n\nMovie Summary: A girl in CS172 makes a Movie Selector Program that is really all comedic satire. Though, anyone that would want to purchase the program can implement their ideas for a more proficient purpose.";
+        break;
+       //comedy genre
+       
+      case 3: 
+        cout << "Movie Title: The War for Pixie Hollow\n\nMovie Summary: In the land of fairies, Buzz Lightyear battles Cinderella and the Smurfs to conquer Pixie Hollow";
+        break;
+       //fantasy genre
+       
+      case 4: 
+        cout << "Movie Title: Ritual\n\nMovie Summary: They were just messing around in the woods when they came upon a site. A creature quietly growls in anticipation of its next meals.";
+        break;
+       //horror genre
+       
+      case 5: 
+        cout << "Movie Title: Him\n\nMovie Summary: She searched and finally gave up. The irony came quick and hard when she found the man of her dreams without looking for him.";
+        break;
+       //romance genre
+       
+      case 6: 
+        cout << "Movie Title: Jack\n\nMovie Summary: A perfect mixture of Horror and Comedy when a man pranks his friends a little too hard.";
+        break;
+       //thriller genre
+       
+      default: 
+        return 0;
+        break;
+     }
+};
