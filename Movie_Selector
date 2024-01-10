@@ -49,7 +49,7 @@ int Selection;
        //action genre
        
       case 2:
-        cout << "Movie Title: Faiza\n\nMovie Summary: A girl in CS172 makes a Movie Selector Program that is really all comedic satire. Though, anyone that would want to purchase the program can implement their ideas for a more proficient purpose.";
+        cout << "Movie Title: CS172\n\nMovie Summary: A girl in CS172 makes a Movie Selector Program that is really all comedic satire. Though, anyone that would want to purchase the program can implement their ideas for a more proficient purpose.";
         break;
        //comedy genre
        
